@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    min-height: 130px;
+    background-image: url(../assests/kabbee.jpg);
+
+}
+.container h1{
+  color:white;
+}
+.login-box{ 
+    width: 40%;
+    padding: 20px 20px;
+    margin: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-style:ridge ;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+   /* buttons */
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+  .csl-btn{
+    background: red;
+    width: 20%;
+    height: 40px;
+    margin-bottom:5%;
+    margin-left: 5px;
+}
+
+.checked{
+    width:10px; 
+    height: 10px;
+ } 
+ footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
