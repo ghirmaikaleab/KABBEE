@@ -1,4 +1,4 @@
-body{
+ body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
@@ -14,9 +14,10 @@ header ul{
     margin: 0;
     padding: 0%;
 }
+ 
 /* header*/
 header{
-    background: #35424a;
+    background:green;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
@@ -30,8 +31,8 @@ header a{
 }
 header li{
     float:left;
-     display: inline;
-     padding: 0 20px 0 20px;
+    display: inline;
+    padding: 0 20px 0 20px;
  }
  
 header #branding{
@@ -50,11 +51,7 @@ header .highlight, header .current a{
     color: e8491d;
     font-weight: bold; 
 }
-header a:hover{
-    color: #cccccc;
-    font-weight: bold;
  
-}
 .dark{
     padding: 15px;
     background: #35424a;
